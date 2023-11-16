@@ -2,11 +2,11 @@ import paramiko
 import os
 from google.cloud import storage
 
-host_name = 'sftp.my-samsung.com'
-host='51.105.224.156'
+host_name = ''
+host=''
 port = 22
-username = 'digitas_samsung'
-password = 'r%Sb!S3tD2'
+username = ''
+password = ''
 sftp_file_path='/root_storage/external/seuk-local-ftp/SEUK_hybris_vouchers/hybris_uk_voucher_report20231011084139.csv'
 blob_name='hybris_uk_voucher_report20231011084139.csv'
 bucket_name='sftp_voucher_code'
