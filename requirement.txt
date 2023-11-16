@@ -1,0 +1,6 @@
+# Function dependencies, for example:
+# package>=version
+pandas
+openpyxl
+IMAP
+torch==1.10.2
