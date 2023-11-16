@@ -4,11 +4,11 @@ from google.cloud import storage, bigquery
 import datetime
 
 # SFTP Configuration
-host = '51.105.224.156'
+host = ''
 port = 22
-username = 'digitas_samsung'
-password = 'r%Sb!S3tD2'
-sftp_dir_path = '/root_storage/external/seuk-local-ftp/SEUK_hybris_vouchers'
+username = ''
+password = ''
+sftp_dir_path = ''
 bucket_name = 'sftp_voucher_code'
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/seuk_digitas/KEYS/samsunguk-media-support-5ea7ffbeecf3.json'
 PROJECT_ID = 'samsunguk-media-support'
